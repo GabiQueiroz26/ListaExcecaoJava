@@ -1,0 +1,8 @@
+Ele irá imprimir try, null, catch, fim
+
+Primeiramente se cria a classe MinhaExcecao extendendo Exception, depois a classe Teste Exceção
+trazendo o throw new que lança uma exceção que será definida pelo usuário, então ele instancia na main
+a sua exceção( MinhaExcecao ), da o nome de "me" e declara como null, depois disso ele abre um try-catch, imprimindo
+dentro do try uma string "Try" que seria a primeira saída ao compilar, e chama um método teste retornando o "me" que seria
+null (segunda saída ao compilar), após disso ele vai pro catch imprime a string " catch " (terceira saída) e inicia a exceção com o me = e, 
+por ultimo imprime o "Fim" (última saída ao compilar). 
